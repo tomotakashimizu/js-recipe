@@ -1,0 +1,18 @@
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+}
+
+.rounded {
+  border-radius: 50px;
+}
+
+/* transition クラスには、 transition プロパティだけが設定されています。
+transition プロパティがついている要素は、CSS に変化があると、
+transition プロパティの設定に応じた動きで形を変えます。 */
+.transition {
+  transition: all 1s;
+}
+/* このとき、変化するすべてのプロパティ（ all ）を、
+1 秒（ 1s ）かけて変化させる、という意味になります。 */
