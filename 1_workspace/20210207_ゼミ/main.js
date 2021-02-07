@@ -11,7 +11,8 @@ new Vue({
       this.count += 1
     },
     addHikakin: function() {
-      this.memos.push("ヒカキン")
+      // this.memos.push("ヒカキン")
+      this.inputText = "ヒカキン"
     },
     removeMemo0: function() {
       this.memos.splice(0, 1)
