@@ -5,10 +5,18 @@ new Vue({
     state: "",
     totalTea: 0,
     totalTeaState: "",
+    inputText: "",
   },
   methods: {
     addMoney: function() {
-      this.totalMoney += 100
+      if (!Number.isNaN(Number(this.inputText))) {
+        // this.totalMoney += 100
+        this.totalMoney += Number(this.inputText)
+        this.inputText = ""
+      } else {
+        this.state = "数字を入力してください。"
+        this.inputText = ""
+      }
     },
     tea: function() {
       if (this.totalMoney >= 120) {

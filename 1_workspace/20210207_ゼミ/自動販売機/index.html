@@ -15,9 +15,10 @@
       </div>
       <br />
       <div>
-        <button v-on:click="addMoney">100円を入れる</button>
+        <!-- <button v-on:click="addMoney">100円を入れる</button> -->
+        <input type="text" v-model="inputText" />
+        <button v-on:click="addMoney">お金を入れる</button>
       </div>
-      <br />
       <div>投入金額：{{ totalMoney }}円</div>
       <br />
       <div>{{ state }}</div>
