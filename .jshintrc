@@ -1,6 +1,0 @@
-{
-  "esversion": 6
-}
-
-// constを使用しているとJSHintが警告を出す場合の解消法 by りょうへいさん
-// https://www.it-swarm-ja.tech/ja/javascript/const%E3%82%92%E4%BD%BF%E7%94%A8%E3%81%97%E3%81%A6%E3%81%84%E3%82%8B%E3%81%A8jshint%E3%81%8C%E8%AD%A6%E5%91%8A%E3%82%92%E5%87%BA%E3%81%99%E3%81%AE%E3%81%AF%E3%81%AA%E3%81%9C%E3%81%A7%E3%81%99%E3%81%8B%EF%BC%9F/1050044323/
